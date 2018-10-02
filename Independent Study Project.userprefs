@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp-firstpass.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Text Editor\text_editor.js">
+    <Files>
+      <File FileName="Assets\Text Editor\text_editor.js" Line="72" Column="54" />
+      <File FileName="Assets\PuzzleFramework\Component Scripts\PuzzleBase.js" Line="1" Column="1" />
+      <File FileName="Assets\Player\function_bullet.js" Line="1" Column="1" />
+      <File FileName="Assets\UI\init_settings.js" Line="1" Column="1" />
+      <File FileName="Assets\PuzzleFramework\Component Scripts\LevelExit.js" Line="1" Column="1" />
+      <File FileName="Assets\UI\main_menu.js" Line="1" Column="1" />
+      <File FileName="Assets\Player\player.js" Line="1" Column="1" />
+      <File FileName="Assets\PuzzleFramework\GameProgressHandler.js" Line="1" Column="1" />
+      <File FileName="Assets\PuzzleFramework\Component Scripts\Framework.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
