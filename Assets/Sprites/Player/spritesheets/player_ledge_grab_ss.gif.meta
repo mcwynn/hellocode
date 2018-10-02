@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: ce814a60b3dfce5438e93b63a3fca637
+timeCreated: 1469145503
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: player_ledge_grab_ss_0
+    21300002: player_ledge_grab_ss_1
+    21300004: player_ledge_grab_ss_2
+    21300006: player_ledge_grab_ss_3
+    21300008: player_ledge_grab_ss_4
+    21300010: player_ledge_grab_ss_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: player_ledge_grab_ss_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 120
+        height: 120
+      alignment: 9
+      pivot: {x: 0.6, y: 0.63}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -7.600006}
+        - {x: -21, y: -8.600006}
+        - {x: -38, y: -36.600006}
+        - {x: -46, y: -66.600006}
+        - {x: -46, y: -72.600006}
+        - {x: -42, y: -75.600006}
+        - {x: -7, y: -75.600006}
+        - {x: -1, y: -49.600006}
+        - {x: -1, y: -10.600006}
+        - {x: -8, y: -7.600006}
+    - name: player_ledge_grab_ss_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 120
+        height: 120
+      alignment: 9
+      pivot: {x: 0.6, y: 0.63}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -5.600006}
+        - {x: -42, y: -22.600006}
+        - {x: -43, y: -37.600006}
+        - {x: -43, y: -73.600006}
+        - {x: -9, y: -73.600006}
+        - {x: -1, y: -43.600006}
+        - {x: -1, y: -5.600006}
+    - name: player_ledge_grab_ss_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 120
+        width: 120
+        height: 120
+      alignment: 9
+      pivot: {x: 0.6, y: 0.63}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 0.3999939}
+        - {x: -32, y: -23.600006}
+        - {x: -32, y: -68.600006}
+        - {x: -8, y: -68.600006}
+        - {x: 4, y: -31.600006}
+        - {x: 4, y: 0.3999939}
+    - name: player_ledge_grab_ss_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 120
+      alignment: 9
+      pivot: {x: 0.6, y: 0.63}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 5.4000015}
+        - {x: -14, y: 5.4000015}
+        - {x: -39, y: -34.6}
+        - {x: -39, y: -59.6}
+        - {x: -24, y: -59.6}
+        - {x: 9, y: -31.599998}
+        - {x: 10, y: -20.599998}
+        - {x: 10, y: 4.4000015}
+    - name: player_ledge_grab_ss_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 120
+      alignment: 9
+      pivot: {x: 0.6, y: 0.63}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 12.400002}
+        - {x: -34, y: -27.599998}
+        - {x: -34, y: -50.6}
+        - {x: -13, y: -50.6}
+        - {x: -4, y: -49.6}
+        - {x: 13, y: -7.5999985}
+        - {x: 13, y: 12.400002}
+    - name: player_ledge_grab_ss_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 120
+      alignment: 9
+      pivot: {x: 0.6, y: 0.63}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 29.400002}
+        - {x: 0, y: 29.400002}
+        - {x: -7, y: 26.400002}
+        - {x: -11, y: 6.4000015}
+        - {x: -11, y: 2.4000015}
+        - {x: -14, y: -25.599998}
+        - {x: -14, y: -39.6}
+        - {x: -13, y: -40.6}
+        - {x: 9, y: -40.6}
+        - {x: 13, y: -10.599998}
+        - {x: 13, y: 24.400002}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

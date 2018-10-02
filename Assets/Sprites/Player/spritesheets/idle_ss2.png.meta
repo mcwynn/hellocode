@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 21c8f7ef39c84e14ea005c1a636a6270
+timeCreated: 1464736458
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: idle_ss2_0
+    21300002: idle_ss2_1
+    21300004: idle_ss2_2
+    21300006: idle_ss2_3
+    21300008: idle_ss2_4
+    21300010: idle_ss2_5
+    21300012: idle_ss2_6
+    21300014: idle_ss2_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: idle_ss2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 40
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 32}
+        - {x: -10, y: 32}
+        - {x: -11, y: 30}
+        - {x: -11, y: -54}
+        - {x: 8, y: -54}
+        - {x: 10, y: -53}
+        - {x: 10, y: -45}
+        - {x: 8, y: -38}
+        - {x: 10, y: -14}
+        - {x: 10, y: 30}
+    - name: idle_ss2_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 90
+        width: 40
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 32}
+        - {x: -11, y: 23}
+        - {x: -11, y: -47}
+        - {x: -8, y: -54}
+        - {x: 5, y: -54}
+        - {x: 10, y: -51}
+        - {x: 10, y: 31}
+        - {x: 8, y: 32}
+    - name: idle_ss2_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 90
+        width: 40
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 32}
+        - {x: -11, y: 26}
+        - {x: -11, y: -54}
+        - {x: 9, y: -54}
+        - {x: 10, y: -53}
+        - {x: 10, y: 31}
+        - {x: 6, y: 32}
+    - name: idle_ss2_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 90
+        width: 40
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 33}
+        - {x: -11, y: 33}
+        - {x: -11, y: -54}
+        - {x: 7, y: -54}
+        - {x: 10, y: -52}
+        - {x: 10, y: 30}
+    - name: idle_ss2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 32.999996}
+        - {x: -11, y: -54.000004}
+        - {x: 8, y: -54.000004}
+        - {x: 10, y: -51.000004}
+        - {x: 10, y: 29.999996}
+        - {x: 2, y: 32.999996}
+    - name: idle_ss2_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 32.999996}
+        - {x: -11, y: 32.999996}
+        - {x: -11, y: -54.000004}
+        - {x: 7, y: -54.000004}
+        - {x: 10, y: -52.000004}
+        - {x: 10, y: 29.999996}
+    - name: idle_ss2_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 40
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 31.999996}
+        - {x: -11, y: 25.999996}
+        - {x: -11, y: -54.000004}
+        - {x: 9, y: -54.000004}
+        - {x: 10, y: -53.000004}
+        - {x: 10, y: 30.999996}
+        - {x: 6, y: 31.999996}
+    - name: idle_ss2_7
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 40
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 31.999996}
+        - {x: -11, y: 22.999996}
+        - {x: -11, y: -47.000004}
+        - {x: -8, y: -54.000004}
+        - {x: 5, y: -54.000004}
+        - {x: 10, y: -51.000004}
+        - {x: 10, y: 30.999996}
+        - {x: 8, y: 31.999996}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
