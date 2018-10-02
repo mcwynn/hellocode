@@ -1,0 +1,13 @@
+
+
+# get global variables
+_keywords = vars()
+_keywords_user = _keywords.copy()
+_var_bank = []
+_obj_vars = ['box', 'box_0', 'box_1', 'box_2', 'box_3', 'box_4', 'box_5', 'box_6', 'box_7',
+			 'platform', 'platform_0', 'platform_1', 'platform_2', 'platform_3', 'platform_4', 'platform_5', 'platform_6', 'platform_7',
+			 'point', 'point_0', 'point_1', 'point_2', 'point_3', 'point_4', 'point_5', 'point_6', 'point_7', 
+			 'capacitor', 'capacitor_0', 'capacitor_1', 'capacitor_2', 'capacitor_3', 'capacitor_4', 'capacitor_5', 'capacitor_6', 'capacitor_7']
+for _key in _keywords_user:
+	if _key[0] != '_' and _key != 'time' and _key not in _obj_vars:
+			_var_bank.append(_key)

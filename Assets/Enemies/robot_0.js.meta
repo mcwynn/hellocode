@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9c3ecd3f0ffce4646b8d48399ab01f76
+timeCreated: 1460482771
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - player: {instanceID: 0}
+  - spr_powered_on: {fileID: 21300000, guid: 9ddd5315631e5bd48ad2362991661a45, type: 3}
+  - spr_powered_off: {fileID: 21300000, guid: 6216d878f6dedf548a8554feb884011f, type: 3}
+  - bullet: {fileID: 139102, guid: f81219cd80e2fcd42aec763d6066f958, type: 2}
+  - hack_message: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,46 @@
+
+# stores function ids and their local variables
+_active_function = -1
+_local_vars = []
+_functions = []
+_func_vars = []
+_func_count = -1
+# Pre: Run this at the end of a function to grab the local variable names.
+# Post: Adds new functions to _function list and their local variables to the _func_vars list.
+def _end_function(function_number, function_variables):
+	if function_number > _func_count:
+		_functions.append(function_number)
+
+		# create list of vars
+		_local_vars = []
+		for _key in function_variables:
+			if _key[0] != '_':
+				_local_vars.append(_key)
+		
+		# add local vars to _func_vars list
+		global _func_vars
+		_func_vars.append(_local_vars)
+
+		# increment function count
+		global _func_count
+		_func_count += 1
+
+		# reset active function
+		global _active_function
+		_active_function = -1
+
+def _set_active_function(function_number):
+	global _active_function
+	_active_function = function_number
+
+def _update_local_vars(local_vars):
+	_clear_local_vars()
+
+	for l_var in local_vars:
+		global _local_vars
+		_local_vars.append((l_var, local_vars[l_var]))
+
+def _clear_local_vars():
+	global _local_vars
+	_local_vars = []
+
