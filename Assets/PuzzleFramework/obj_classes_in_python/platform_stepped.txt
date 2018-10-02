@@ -1,0 +1,67 @@
+class Editable:
+	def __init__(self):
+		self.x = 0.0
+		self.y = 0.0
+		self.activated = False
+		self.velocity = 1
+		self.range = 600
+		self.moving_right = False
+		self.moving_left = False
+		self.moving_up = False
+		self.moving_down = False
+		self.max_velocity = 10
+
+	def update_pos(self, new_x, new_y):
+		self.x = new_x
+		self.y = new_y
+
+	def change_direction(self):
+		if self.move_dir == 0:
+			self.move_dir = 1
+		else:
+			self.move_dir = 0
+
+	def get_x(self):
+		return self.x
+
+	def turn_on(self):
+		self.activated = True
+
+	def turn_off(self):
+		self.activated = False
+
+	def set_velocity(self, new_velocity):
+		if new_velocity > 0 and new_velocity <= self.max_velocity:
+			self.velocity = new_velocity
+		elif new_velocity < 0:
+			self.velocity = 1
+		else:
+			self.velocity = self.max_velocity
+
+	def set_range(self, new_range):
+		if new_range > 0:
+			self.range = new_range
+
+	def move_right(self):
+		self.stop()
+		self.moving_right = True
+
+	def move_left(self):
+		self.stop()
+		self.moving_left = True
+
+	def move_up(self):
+		self.stop()
+		self.moving_up = True
+
+	def move_down(self):
+		self.stop()
+		self.moving_down = True
+		
+	def stop(self):
+		self.moving_right = False
+		self.moving_left = False
+		self.moving_up = False
+		self.moving_down = False
+
+object = Editable()
